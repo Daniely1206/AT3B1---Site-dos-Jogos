@@ -1,0 +1,39 @@
+  .conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .box-historico{
+    background-color: rgb(215, 209, 250);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    width: 280px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .ano {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(16, 1, 104);
+    margin-bottom: 10px;
+  }
+  
+.h2-sty {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-historico:hover {
+    transform: scale(1.03);
+  }
+
+  .link{
+    text-decoration: none;
+    color: #000000;
+  }

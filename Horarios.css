@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.link-pdf{
+    display: flex;
+    height: 3vh;
+    width: 199vh;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+}
+
+.link-pdf:hover{
+    font-size: 27px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.dia {
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 1rem;
+}
+
+.dia h2 {
+  background-color: #04305f;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.jogos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.jogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9ecef;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.jogo span {
+  flex: 1;
+  text-align: center;
+}
+
+.jogo span:first-child {
+  text-align: left;
+}
+
+.jogo span:last-child {
+  text-align: right;
+}
